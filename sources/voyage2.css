@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+.voyage2{
+background-image:url(../img/fondespagne.jpg);
+background-size:cover;
+background-attachment:fixed;	
+margin:0;
+padding:0;	
+}
+
+.hautdepage{
+background-image:url(../img/drapeau.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height:75%;
+box-shadow: 8px 8px 12px black;
+}
+
+
+.deconstructed {
+  position: relative;
+  top:40%;
+  color: transparent;
+  font-family: 'Cambay', sans-serif;
+  font-size: 10vw;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.deconstructed > div {
+  position: absolute;
+  right: 0;
+  color: #ffff64;
+  pointer-events: none;
+}
+
+.deconstructed > div:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+  animation: deconstructed1 5s infinite;
+}
+
+.deconstructed > div:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  animation: deconstructed2 5s infinite;
+}
+
+.deconstructed > div:nth-child(3) {
+   -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  animation: deconstructed3 5s infinite;
+}
+
+.deconstructed > div:nth-child(4) {
+   -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+  animation: deconstructed4 5s infinite;
+}
+
+@keyframes deconstructed1 {
+  0% {
+    transform: translateY(-500%);
+  }
+  26% {
+    transform: translateY(0%);
+  }
+  83% {
+    transform: translateX(-2%);
+  }
+}
+
+@keyframes deconstructed2 {
+  0% {
+    transform: translateY(-500%);
+  }
+  24% {
+    transform: translateY(1.5%);
+  }
+  82% {
+    transform: translateX(-0.6%);
+  }
+}
+
+@keyframes deconstructed3 {
+  0% {
+    transform: translateY(100%);
+  }
+  22% {
+    transform: translateY(0%);
+  }
+  81% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes deconstructed4 {
+  0% {
+    transform: translateY(100%);
+  }
+  20% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+}
+
+
+
+
+.Titre{
+display:flex;
+justify-content:center;
+align-items:center;
+background-image:url(../img/fond.jpg);
+color:white;
+height:15%;
+min-height:50px;
+font-size:130%;
+font-family: 'Calistoga', cursive;
+letter-spacing: 1px;
+box-shadow: 0px 0px 12px 5px black;
+}
+
+
+
+.blocimages{
+display:flex;
+justify-content:space-between;
+background-image:url(../img/espagnecarte.jpg);
+background-position:right;
+height:65%;
+margin-top:25%;
+box-shadow: 0px 0px 12px 5px black;
+margin-bottom:10%;
+}
+
+.container{
+
+   width: 50%;
+   height:100%;
+   }
+    .img1{
+        height: 65%;
+		width:55%;
+        position: absolute;
+		box-shadow: 0px 0px 12px  black;
+		
+    }
+    .img2{
+        height: 30%;
+        position: absolute;
+		box-shadow: 0px 0px 12px 5px black;
+		transition: transform .2s;
+		-ms-transform: scale(2); 
+		-webkit-transform: scale(2); 
+		transform: scale(2);
+		
+    }
+.stjacques{
+width:80%;
+height:100%;
+border-radius:30px;	
+margin-bottom:3%;
+}
+
+.titrestjacques{
+text-align:center;
+text-shadow: black 0.1em 0.1em 0.2em;
+font-size:45px;
+color: #F4D03F ; 
+font-family: 'Lobster', cursive;
+}
+
+
+.cheminstjacques{
+display:flex;
+flex-direction:column;
+align-items:center;
+color: white;
+font-size:25px;
+text-shadow: black 0.4em 0.4em 0.4em;
+font-weight:bold;
+}
+
