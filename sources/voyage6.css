@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Vidaloka&display=swap');
+
+
+
+.accueil{
+    margin:0;
+    padding: 0;
+}
+    
+.titreaccueil{
+    text-align:center;
+    margin-top:5%;	
+    text-shadow:  white 0.006em 0.006em 0.007em,
+        #9c9c9c 1px 1px 1px,
+        #9c9c9c 1px 2px 1px,
+        #9c9c9c 1px 3px 1px,
+        #9c9c9c 1px 4px 1px,
+        #9c9c9c 1px 5px 1px,
+        #9c9c9c 1px 6px 1px,
+        #9c9c9c 1px 7px 1px,
+        #9c9c9c 1px 8px 1px,
+        #9c9c9c 1px 9px 1px,
+        #9c9c9c 1px 10px 1px,
+        #9c9c9c 1px 11px 1px,
+        #9c9c9c 1px 12px 1px,
+        rgba(16, 16, 16, 0.4) 1px 18px 6px,
+        rgba(16, 16, 16, 0.2) 1px 22px 10px,
+        rgba(16, 16, 16, 0.2) 1px 26px 35px,
+        rgba(16, 16, 16, 0.4) 1px 30px 65px,
+        white -0.15em -0.1em 100px;color:#fff;
+    font-size:45px;
+          
+}
+    
+.iconeadrien{
+    
+    width:40%;	
+}
+    
+.presentationequipe{
+    display:flex;
+    justify-content:space-between;
+    margin-top:7%;	
+    padding: 50px;
+    
+}
+    
+.prenom{
+    text-align:center;
+    font-size:35px;	
+}
+    
+.site{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #FFEFD5;
+    opacity: 0.8;
+    box-shadow:5px 3px 3px #555;
+    width:auto;	
+    margin:50px;
+    height:auto;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    color:white;
+    font-size:20px;	
+    font-weight:bold;
+    margin-top:8%;
+}
+    
+    
+.presentation{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #FFEFD5;
+    opacity: 0.8;
+    box-shadow:5px 3px 3px #555;
+    width:25%;	
+    height:500px;
+    min-width:200px;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    color:white;
+    font-size:20px;
+}
+    
+.site:hover{
+    box-shadow:12px 8px 8px #555;	
+}
+    
+.presentation:hover{
+    box-shadow:12px 8px 8px #555;
+}
+    
+.images{
+    display: flex;
+    justify-content:center;
+        
+}
+    
+    
+nav{
+      width: 100%;
+      text-align: center;
+      padding:0;
+      margin:0;
+      font-family:'Bebas Neue', cursive;
+      position:fixed;
+}
+
+ul{
+      margin: 0;
+      padding: 0;
+      list-style: none; 
+}
+    
+li{
+      margin: 0;
+      background: rgb(37, 83, 23);
+      
+}
+    
+.menu , .lien {
+      display: block;
+      padding: 10px 0;
+      color: white;
+      text-decoration: none;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      position:relative;
+       z-index:2;
+    
+}
+    
+    
+.menu:hover,
+.menu:focus {
+      background: white;
+      color:black;
+}
+    
+nav > ul {
+      display: table;
+      width: 100%;
+}
+
+nav > ul > li {
+      display: table-cell;
+      width: 16%;
+
+}
+    
+nav > ul li {
+      position: relative;
+}
+    
+nav li ul {
+      display: none;
+      position: absolute;
+}
+    
+nav > ul > li > ul {
+      top: 100%;
+      left: 0;
+      right: 0;
+}
+    
+nav > ul > li li > ul {
+      top: 0;
+      left: 100%;
+}
+    
+nav li:hover > ul {
+      display: block;
+}
+    
+nav > ul > li > ul .menu {
+      text-align: left;
+      padding: 10px;
+}
+    
+    
+.afooter1 {
+      display: block;
+      padding: 10px 0;
+      color: white;
+      text-decoration: none;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    
+}
+    
+nav > ul > li > ul .afooter1 {
+      text-align: left;
+      padding: 10px;
+}
+    
+.footer1{	
+    text-align:center;
+    height:auto;	
+    background-color:rgb(37, 83, 23);
+    font-family: 'Bebas Neue', cursive;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#toast10{
+    background-image: url('../img/vietnambg2.jpg');
+    background-size: cover;
+    border-bottom: 4px solid white;
+}
+
+#tout{
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #582900d0;
+    color: white;
+}
+
+#mainsection{
+    background-image: url('../img/halong2.png');
+    background-size: cover;
+    height: 888px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    margin-top: 41px;
+}
+
+#mainsectiontitle{
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgba(255, 255, 255, 0.356);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid white;
+    border-top: 1.5px solid white;
+    font-family: 'Vidaloka', serif;*/
+}
+
+#mainsectiontitle {
+    width: 1902.5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    overflow: hidden;
+  }
+  
+  @-webkit-keyframes rise {
+    0% {padding-top: 100%;}
+    60% {padding-top: 7%;}
+    80% {padding-top: 7%; border-bottom: 0px solid #fff; opacity: 0.5; text-shadow: 2px 2px 5px #fff;}
+    100% {padding-top: 7%; border-bottom: 0.35em solid #fff; opacity: 1; text-shadow: 0;}
+  }
+  
+  @keyframes rise {
+    0% {padding-top: 100%;}
+    60% {padding-top: 7%;}
+    80% {padding-top: 7%; border-bottom: 0px solid #fff; opacity: 0.5; text-shadow: 2px 2px 200px rgba(255, 255, 255, 1);}
+    100% {padding-top: 7%; border-bottom: 0.35em solid  #fff;opacity: 1; text-shadow: 200px 200px 200px rgba(255, 255, 255, 0);}
+  }
+  
+  
+  .rise-text {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    opacity: 0;
+    color: #fff;
+    border-bottom: 0;
+    text-shadow: 2px 2px 5px #fff;
+    font-family: 'Vidaloka', serif;
+    font-size: 100px;
+    font-weight: normal;
+    -webkit-animation-name: rise;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: cubic-bezier(0, 0.25, 0.55, 1);
+    -webkit-animaiton-fill-mode: forwards;
+    animation-name: rise;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0, 0.25, 0.55, 1);
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.356);
+    width: 100%;
+    border-top: 1.5px solid white;
+  }
+
+#firstarticle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#hanoiimage{
+    width: 566px;
+    height: 550px;
+}
+
+#h1hanoi{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Vidaloka', serif;
+}
+
+#hanoiprearticle{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+#hanoiarticle{
+    padding: 5%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#toast{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secondarticle{
+    display: flex;
+    flex-direction: row;
+}
+
+#hochiprearticle{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    text-align:center;
+}
+
+#h1hochi{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Vidaloka', serif;
+}
+
+#hochiarticle{
+    text-align: justify;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+#sectionhochi{
+    display: flex;
+    flex-direction: column;
+}
+
+#hochiimage{
+    width: 566px;
+    height: 550px;
+}
+
+h3{
+    font-family: 'Vidaloka', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+table img{
+    width: 400px;
+    height: 250px;
+}
+
+#tablevietnam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    background-image: url('../img/bamboo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table{
+    max-width: 1000px;
+    text-align: center;
+    border:3px solid black; 
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Arial';
+}
+
+th{
+    border-bottom: 3px solid black;
+}   

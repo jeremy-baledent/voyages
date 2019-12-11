@@ -192,3 +192,18 @@ background-color:#ca5d00b5;
 }
 
 /* ACCUEIL */
+
+#sectionvoyage5mainhead{
+  background-image: url('img/japanvoyage.jpeg');
+}
+
+#articlevoyage5mainhead{
+  font-size: 40px;
+  
+}
+
+.iconepaul{
+  width:165px;
+  height: 165px;
+  border-radius: 50% 50% 50% 50%;
+}
