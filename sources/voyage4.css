@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+
+
+.accueil{
+    margin:0;
+    padding: 0;
+}
+    
+.titreaccueil{
+    text-align:center;
+    margin-top:5%;	
+    text-shadow:  white 0.006em 0.006em 0.007em,
+        #9c9c9c 1px 1px 1px,
+        #9c9c9c 1px 2px 1px,
+        #9c9c9c 1px 3px 1px,
+        #9c9c9c 1px 4px 1px,
+        #9c9c9c 1px 5px 1px,
+        #9c9c9c 1px 6px 1px,
+        #9c9c9c 1px 7px 1px,
+        #9c9c9c 1px 8px 1px,
+        #9c9c9c 1px 9px 1px,
+        #9c9c9c 1px 10px 1px,
+        #9c9c9c 1px 11px 1px,
+        #9c9c9c 1px 12px 1px,
+        rgba(16, 16, 16, 0.4) 1px 18px 6px,
+        rgba(16, 16, 16, 0.2) 1px 22px 10px,
+        rgba(16, 16, 16, 0.2) 1px 26px 35px,
+        rgba(16, 16, 16, 0.4) 1px 30px 65px,
+        white -0.15em -0.1em 100px;color:#fff;
+    font-size:45px;
+          
+}
+    
+.iconeadrien{
+    
+    width:40%;	
+}
+    
+.presentationequipe{
+    display:flex;
+    justify-content:space-between;
+    margin-top:7%;	
+    padding: 50px;
+    
+}
+    
+.prenom{
+    text-align:center;
+    font-size:35px;	
+}
+    
+.site{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #FFEFD5;
+    opacity: 0.8;
+    box-shadow:5px 3px 3px #555;
+    width:auto;	
+    margin:50px;
+    height:auto;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    color:white;
+    font-size:20px;	
+    font-weight:bold;
+    margin-top:8%;
+}
+    
+    
+.presentation{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #FFEFD5;
+    opacity: 0.8;
+    box-shadow:5px 3px 3px #555;
+    width:25%;	
+    height:500px;
+    min-width:200px;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    color:white;
+    font-size:20px;
+}
+    
+.site:hover{
+    box-shadow:12px 8px 8px #555;	
+}
+    
+.presentation:hover{
+    box-shadow:12px 8px 8px #555;
+}
+    
+.images{
+    display: flex;
+    justify-content:center;
+        
+}
+    
+    
+nav{
+      width: 100%;
+      text-align: center;
+      padding:0;
+      margin:0;
+      font-family: 'Bebas Neue', cursive;
+      position:fixed;
+      border-bottom: 3px solid black;
+}
+
+ul{
+      margin: 0;
+      padding: 0;
+      list-style: none; 
+}
+    
+li{
+      margin: 0;
+      background: #FF0000;
+      
+}
+    
+.menu , .lien {
+      display: block;
+      padding: 10px 0;
+      color: white;
+      text-decoration: none;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      position:relative;
+       z-index:2;
+    
+}
+    
+    
+.menu:hover,
+.menu:focus {
+      background: white;
+      color:black;
+}
+    
+nav > ul {
+      display: table;
+      width: 100%;
+}
+
+nav > ul > li {
+      display: table-cell;
+      width: 16%;
+
+}
+    
+nav > ul li {
+      position: relative;
+}
+    
+nav li ul {
+      display: none;
+      position: absolute;
+}
+    
+nav > ul > li > ul {
+      top: 100%;
+      left: 0;
+      right: 0;
+}
+    
+nav > ul > li li > ul {
+      top: 0;
+      left: 100%;
+}
+    
+nav li:hover > ul {
+      display: block;
+}
+    
+nav > ul > li > ul .menu {
+      text-align: left;
+      padding: 10px;
+}
+    
+    
+.afooter1 {
+      display: block;
+      padding: 10px 0;
+      color: white;
+      text-decoration: none;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    
+}
+    
+nav > ul > li > ul .afooter1 {
+      text-align: left;
+      padding: 10px;
+}
+    
+.footer1{	
+    text-align:center;
+    height:auto;	
+    background-color:red;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#italybg{
+    width: 100%;
+    border-bottom: 3px solid black;
+    height: 934px;
+}
+
+#tout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#partieverte{
+    background-color: rgba(0, 128, 0, 0.493);
+    display: flex;
+    flex-direction: column;
+    max-width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+#partierouge{
+    background-color: rgba(255, 0, 0, 0.555);
+    display: flex;
+    flex-direction: column;
+    max-width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+#partieverte img{
+    width: 100%;
+}
+
+#partierouge img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+article{
+    font-size:15px;
+    font-family: 'Arial';
+    max-width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+article img:hover{
+    transition: transform .4s;
+    transform: scale(1.6);
+    margin-right: 50%;
+}
